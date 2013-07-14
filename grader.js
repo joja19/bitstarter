@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#! /usr/bin/env node
 
 /*
 Automatically grade files for the presence of specified HTML tags/attributes.
@@ -27,10 +27,12 @@ var program = require('commander');
 var cheerio = require('cheerio');
 var rest = require('restler');
 /* rest.get(apiurl).on('complete', response2console); 
-from market_research.js */
+from market_research.js 
+Note that response2console is a callback function */
  
 var HTMLFILE_DEFAULT = "index.html";
 var CHECKSFILE_DEFAULT = "checks.json";
+var URL_DEFAULT = "http://gentle-river-4114.herokuapp.com/";
 
 
 /* Check if file exists and return a string of the file. Default encoding will be utf-8 */
@@ -41,6 +43,19 @@ var assertFileExists = function(infile) {
         process.exit(1); // http://nodejs.org/api/process.html#process_process_exit_code
     }
     return instr;
+};
+
+
+/* Load URL and save it to a file on the disk. Return the filename. */
+var loadUrl = function(appUrl) {
+    rest.get(appUrl).on('complete', function(data) {
+    var splitOverSlashesArray = appUrl.split("/");
+    var splitOverDotsArray = splitOverSlashesArray[2].split(".");
+    var domainName = splitOverDotsArray[0];
+    var outFile = domainName + '.html';
+    fs.writeFileSync(outFile, data);
+    return outFile;
+  });
 };
 
 
@@ -93,9 +108,15 @@ if(require.main == module) {
     program
         .option('-c, --checks <checks_file>', 'Path to checks.json', clone(assertFileExists), CHECKSFILE_DEFAULT)
         .option('-f, --file <html_file>', 'Path to index.html', clone(assertFileExists), HTMLFILE_DEFAULT)
+        .option('-u, --url <URL>', 'The URL of the page you want to parse',clone(loadUrl), URL_DEFAULT)
         .parse(process.argv);
     /* interesting that commander returns the --optionName as a property of the object */
-    var checkJson = checkHtmlFile(program.file, program.checks);
+    if (program.file) {
+        var checkJson = checkHtmlFile(program.file, program.checks);
+    }
+    else if (program.url) {
+        var checkJson = checkHtmlFile(program.url, program.checks);
+    };
     /* note that streams get the .toString() function but JSON objects get the .stringify() function. Need to know the other 2 args */
     var outJson = JSON.stringify(checkJson, null, 4);
     console.log(outJson);
