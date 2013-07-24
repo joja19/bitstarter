@@ -14,7 +14,7 @@
     <style type="text/css">
 
 			/* large desktop*/
-			@media (min-width:980px) {
+			@media (min-width: 980px) {
 				body {
 					padding-top: 60px;
 				}
@@ -27,7 +27,7 @@
 			}
 
 			/* Landscape phones and down */
-			@media (max-width: 480) {
+			@media (max-width: 480px) {
 				.copy {
 					padding: 2.5% 10%;
 				}
@@ -49,7 +49,7 @@
 				font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 				text-align: center;
 			}
-			p.lead{ 
+			p.lead { 
 				font-size: 18px;
 				line-height: 24px;
 			}
@@ -63,8 +63,11 @@
 			.pitch {
 				padding: 2.5% 0%;
 			}
+			.order {
+				padding: 2% 0%;
+			}
 			.actions {
-				background-color: #343434
+				background-color: #343434;
 				padding: 3% 0%;
 			}
 			.video, .thermometer, .order, .social, .statistics {
@@ -95,7 +98,7 @@
 			}
 		</style>
 	</head>
-</body>
+<body>
 
 	<!-- Mobile friendly nav bar adapted from example -->
 	<!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
@@ -166,7 +169,50 @@
 						</div>
 					</div>
 				</div>
+				<div class="span10 offset1">
+					<!-- bootstrap progress bar -->
+					<!-- http://twitter.github.io/bootstrap/components.html#progress-->
+					<div class="thermometer progress active">
+						<div class="bar bar-success" style="width: 60%;"></div>
+						<div class="bar bar-warning" style="width: 40%;"></div>
+					</div>
+				</div>
+				<div class="span6 offset3 order">
+					<!-- standard bootstrap button -->
+					<!-- http://twitter.github.io/bootstrap/base-css.html#buttons-->
+					<button class="btn btn-success btn-large">Preorder</button>
+				</div>
+				<div class="span8 offset2 social">
+					<!-- social buttons are not included in default bootstrap -->
+					<!-- http://noizwaves.github.io/bootstrap-social-buttons-->
+					<button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+					<button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+				</div>
+			</div>
+		</div>
 
+
+		<!-- beyond this part marketing copy begins -->
+		<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
+		<!-- http://twitter.github.io/bootstrap/base-css.html#images-->
+		<!-- http://placehold.it -->
+		<div class="row-fluid section1">
+			<div class="span5 offset1 asset">
+				<img class="img-polaroid" src="http://placehold.it/480x300">
+			</div>
+			<div class="span5 copy">
+				<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+				laboris nisi ut aliquip ex ea commodo consequat. 
+				Duis aute irure dolor in reprehenderit in voluptate velit esse 
+				cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, 
+				sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
 
 
 
