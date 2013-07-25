@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="365" height="414">
+  <defs>
+    <linearGradient id="imagebot_82">
+      <stop offset="0" id="imagebot_104" stop-color="#dfdfdf"/>
+      <stop offset="1" id="imagebot_103" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="imagebot_78">
+      <stop offset="0" id="imagebot_102" stop-color="#375a93"/>
+      <stop id="imagebot_101" offset="0.36961" stop-color="#5c9eda"/>
+      <stop id="imagebot_100" offset="0.53886" stop-color="#97cafd"/>
+      <stop id="imagebot_99" offset="0.77808" stop-color="#8bbff3"/>
+      <stop offset="1" id="imagebot_98" stop-color="#2a629a"/>
+    </linearGradient>
+    <linearGradient id="imagebot_79">
+      <stop offset="0" id="imagebot_97" stop-color="#a07100"/>
+      <stop id="imagebot_96" offset="0.38158" stop-color="#f6f600"/>
+      <stop offset="1" id="imagebot_95" stop-color="#9e700b"/>
+    </linearGradient>
+    <linearGradient id="imagebot_80">
+      <stop offset="0" id="imagebot_94" stop-color="#a07100"/>
+      <stop id="imagebot_93" offset="0.43039" stop-color="#f4f300"/>
+      <stop offset="1" id="imagebot_92" stop-color="#9e700b"/>
+    </linearGradient>
+    <linearGradient id="imagebot_81">
+      <stop offset="0" id="imagebot_91" stop-color="#9b6a06"/>
+      <stop id="imagebot_90" offset="0.10284" stop-color="#b38e29"/>
+      <stop offset="0.25018" id="imagebot_89" stop-color="#faf892"/>
+      <stop id="imagebot_88" offset="0.51725" stop-color="#ddba32"/>
+      <stop id="imagebot_87" offset="0.6932" stop-color="#cf9e08"/>
+      <stop offset="0.73575" id="imagebot_86" stop-color="#976400"/>
+      <stop offset="1" id="imagebot_85" stop-color="#976400"/>
+    </linearGradient>
+    <filter id="imagebot_50" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2.08236" id="imagebot_84"/>
+    </filter>
+    <filter id="imagebot_77" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2.68359" id="imagebot_83"/>
+    </filter>
+    <linearGradient xlink:href="#imagebot_82" id="imagebot_75" x1="0.47289" y1="0.9597" x2="0.21936" y2="0.06645"/>
+    <linearGradient xlink:href="#imagebot_82" id="imagebot_68" x1="0.18229" y1="0.12925" x2="0.33594" y2="0.83674"/>
+    <linearGradient xlink:href="#imagebot_81" id="imagebot_48" x1="0.20689" y1="0.13719" x2="0.86576" y2="0.63989"/>
+    <linearGradient xlink:href="#imagebot_80" id="imagebot_46" x1="-0.02964" y1="0.59825" x2="0.49444" y2="0.8934"/>
+    <linearGradient xlink:href="#imagebot_79" id="imagebot_44" x1="0.26638" y1="0.45688" x2="0.586" y2="0.74948"/>
+    <linearGradient xlink:href="#imagebot_78" id="imagebot_42" x1="0.24203" y1="0.88973" x2="0.08808" y2="0.77676"/>
+  </defs>
+  <g label="Layer 1" id="imagebot_1">
+    <g id="imagebot_38" transform="translate(158.003 124.653) matrix(3.38006 0 0 3.38006 -2480.21 -2299.32)" label="Layer 1">
+      <g id="imagebot_52">
+        <path d="M764.59375,651.125L687.03125,670.09375L708.125,765.875L786.96875,746.59375L764.59375,651.125z" id="imagebot_76" filter="url(#imagebot_77)" fill="#000000" opacity="0.51667"/>
+        <g id="imagebot_60" transform="translate(40,0)">
+          <path d="M649.04102,666.10699L670.117,761.862L748.95898,742.60699L726.58197,647.112L649.04102,666.10699z" id="imagebot_74" fill="url(#imagebot_75)"/>
+          <path id="imagebot_64" d="M651,667.612L671.25,759.612L747,741.112L725.5,649.362L651,667.612z" fill="url(#imagebot_68)"/>
+        </g>
+      </g>
+      <path id="imagebot_51" d="M763.375,661.03101A1.0001,1.0001 0 0 0 763.21899,661.06201L698.5,676.81299A1.0001,1.0001 0 1 0 698.96899,678.75L763.68799,663A1.0001,1.0001 0 0 0 763.375,661.03101zM765.03101,668.96899A1.00511,1.00511 0 0 0 764.875,669A1.0001,1.0001 0 0 0 764.78101,669.03101L700.43799,684.93799A1.00049,1.00049 0 1 0 700.93799,686.875L765.28101,670.96899A1.00778,1.00778 0 1 0 765.03101,668.96899zM766.96899,676.56299A1.00511,1.00511 0 0 0 766.81299,676.59399A1.0001,1.0001 0 0 0 766.75,676.625L700.96899,692.53101A1.0001,1.0001 0 1 0 701.43799,694.46899L767.21899,678.56201A1.00778,1.00778 0 1 0 766.96899,676.56201L766.96899,676.56299zM768.31299,684.71899A1.0001,1.0001 0 0 0 768.15601,684.75L702.75,700.84399A1.0001,1.0001 0 1 0 703.21899,702.78101L768.625,686.68799A1.0001,1.0001 0 0 0 768.31299,684.71899zM770.31299,693.18799A1.00511,1.00511 0 0 0 770.15601,693.21899A1.0001,1.0001 0 0 0 770.09399,693.25L705.06299,708.96899A1.0001,1.0001 0 1 0 705.53101,710.90601L770.56299,695.18799A1.00778,1.00778 0 1 0 770.31299,693.18799zM772.28101,701.5A1.00511,1.00511 0 0 0 772.125,701.53101A1.0001,1.0001 0 0 0 772.03101,701.56201L707.15601,717.28101A1.0001,1.0001 0 1 0 707.625,719.21899L772.53101,703.5A1.00778,1.00778 0 1 0 772.28101,701.5zM773.81299,709.28101A1.0001,1.0001 0 0 0 773.625,709.34399L709.28101,725.40601A1.00049,1.00049 0 1 0 709.78101,727.34399L774.125,711.28101A1.00596,1.00596 0 1 0 773.90601,709.28101A1.0001,1.0001 0 0 0 773.81299,709.28101zM776.28101,717.78101A1.0001,1.0001 0 0 0 776.125,717.81201L710.34399,733.71899A1.0001,1.0001 0 1 0 710.81299,735.65601L776.59399,719.75A1.0001,1.0001 0 0 0 776.28101,717.78101zM778.09399,725.71899A1.00511,1.00511 0 0 0 777.93799,725.75A1.0001,1.0001 0 0 0 777.875,725.78101L712.28101,741.68701A1.00049,1.00049 0 1 0 712.78101,743.625L778.34399,727.71899A1.00778,1.00778 0 1 0 778.09399,725.71899zM779.68799,734.375A1.00511,1.00511 0 0 0 779.53101,734.40601A1.0001,1.0001 0 0 0 779.46899,734.43701L713.71899,750A1.0001,1.0001 0 1 0 714.18799,751.93799L779.93799,736.375A1.00778,1.00778 0 1 0 779.68799,734.375z" stroke-width="2" fill="#547ca5"/>
+      <g id="imagebot_39">
+        <path d="M784.40601,657.15601C783.78497,657.17798 783.5,657.375 783.5,657.375L779.18799,662.28101C777.60602,662.19598 776.78101,662.68799 776.78101,662.68799C758.83502,684.85901 740.74597,707.18597 730.06299,722.09399C725.78497,728.06299 722.16803,733.35901 721.03101,736.18799L721.15601,736.28101L717.65601,744.81201L718.125,745.125C717.84601,745.95599 717.33197,747.54498 717.59399,747.71899C717.94098,747.95001 719.15601,746.95697 719.875,746.34399L720.40601,746.68701L727.59399,741.5L728.28101,742.06201C728.28101,742.06201 741.302,729.82501 747.34399,723.25C762.29602,706.979 789.78101,672.31201 789.78101,672.31201C789.78101,672.31201 789.96698,671.836 789.90601,671.03101C790.94098,669.737 791.98499,668.39801 792.43799,667.71899C793.50897,666.112 794.92401,663.625 790.28101,659.875C787.37903,657.53101 785.44202,657.12 784.40601,657.15601L784.40601,657.15601z" id="imagebot_49" filter="url(#imagebot_50)" fill="#000000" opacity="0.59167"/>
+        <g id="imagebot_40" transform="translate(99.513864,-0.35355339)">
+          <path id="imagebot_47" d="M676.802,661.60999L681.98102,655.71698C681.98102,655.71698 684.12402,654.46698 688.76703,658.21698C693.40997,661.96698 691.98102,664.46698 690.90997,666.07397C689.83801,667.68103 685.552,672.85999 685.552,672.85999L676.802,661.60999z" fill="url(#imagebot_48)"/>
+          <path id="imagebot_45" d="M616.82898,742.78802C616.82898,742.78802 615.74103,745.86298 616.07599,746.086C616.539,746.39502 619.01703,744.16302 619.01703,744.16302L616.82898,742.78802z" fill="url(#imagebot_46)"/>
+          <path id="imagebot_43" d="M619.82898,734.16302L616.14203,743.16302L618.89203,745.03802L627.20398,739.03802L619.82898,734.16302z" fill="url(#imagebot_44)"/>
+          <path id="imagebot_41" d="M675.26678,661.03845C657.32037,683.20984 639.22913,705.52606 628.5459,720.43433C624.26831,726.40356 620.65356,731.70996 619.51678,734.53845L626.76678,740.41345C626.76678,740.41345 639.784,728.16504 645.82574,721.59045C660.77808,705.31964 688.26678,670.66345 688.26678,670.66345C688.26678,670.66345 689.64178,667.41345 684.01678,663.28845C678.39178,659.16345 675.26678,661.03845 675.26678,661.03845z" fill="url(#imagebot_42)"/>
+        </g>
+      </g>
+    </g>
+    <title label="Layer 1"/>
+    <text label="Layer 1" fill="#000000" stroke="#000000" stroke-width="0" stroke-linejoin="round" stroke-linecap="round" x="204.5" y="60" id="imagebot_37" font-size="24" font-family="Cursive" text-anchor="middle" xml:space="preserve" transform="rotate(344.983 202.944 74.0734) matrix(3.58181 0 0 3.73287 -529.536 -113.621)">A+</text>
+    <circle label="Layer 1" fill="#000000" stroke-dasharray="null" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="null" fill-opacity="null" id="imagebot_36" cx="277.5" cy="-63" r="0"/>
+    <circle label="Layer 1" fill="#000000" stroke-dasharray="null" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="null" fill-opacity="null" id="imagebot_34" cx="-80.5" cy="-41" r="0"/>
+    <circle label="Layer 1" fill="#000000" stroke-dasharray="null" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="null" fill-opacity="null" id="imagebot_33" cx="-82.5" cy="33" r="0"/>
+    <circle label="Layer 1" fill="#000000" stroke-dasharray="null" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="null" fill-opacity="null" id="imagebot_32" cx="149.5" cy="65" r="0"/>
+    <polyline label="Layer 1" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="null" fill-opacity="null" points="112.5,122 112.5,122 " id="imagebot_31"/>
+    <circle label="Layer 1" fill="#000000" stroke-dasharray="null" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="null" fill-opacity="null" id="imagebot_2" cx="76.5" cy="114" r="0"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Good Result</dc:title>
+        <dc:date>2013-04-17T01:02:16</dc:date>
+        <dc:description/>
+        <dc:source>http://openclipart.org/detail/177246/good-result-by-marlinsons-177246</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>marlinsons</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Good</rdf:li>
+            <rdf:li>result</rdf:li>
+            <rdf:li>Pen</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
