@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -26,6 +25,13 @@
 			border-left: 1px white solid;
 		}
 	}
+
+	@media (max-width: 800px) {
+		.github-fork-ribbon-wrapper {
+			display: none;
+		}
+	}
+
 
 	/* Landscape phones and down */
 	@media (max-width: 480px) {
@@ -73,6 +79,18 @@
 		background-color: #343434;
 		padding: 3% 0%;
 	}
+	.newsletter {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.newsletter label {
+		display: inline-block;
+		margin: 0 20px 0 0;
+		line-height: 
+	}
+	.newsletter input {
+		margin: 0 0 0 5px;
+	}
 	.video, .thermometer, .order, .social, .statistics {
 		text-align: center;
 	}	
@@ -100,8 +118,16 @@
 		color: #ccccff;
 	}
 	</style>
+  <link rel="stylesheet" href="assets/css/gh-fork-ribbon.css">
 </head>
 <body>
+
+	<!-- The ribbon -->
+	<div class="github-fork-ribbon-wrapper right fixed">
+		<div class="github-fork-ribbon">
+			<a href="https://class.coursera.org/startup-001/class/index">Startup Engineering</a>
+		</div>
+	</div>
 
 	<!-- Mobile friendly nav bar adapted from example -->
 	<!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
@@ -158,17 +184,17 @@
 							<!-- linediv-l and linediv-r give dividing lines that lok different in vertical and horizontal layouts 
 						  illustrating media queries. -->
 							<div class="linediv-l">
-							<h3>1000</h3> <p>backers</p>
+							<h3>1</h3> <p>backers</p>
 							</div>
 						</div>
 						<div class="span4">
 							<div class="linediv-c">
-								<h3>$6000</h3> <p>of $10,000</p>
+								<h3>0</h3> <p>of 10,000 shares<br><i class="icon-thumbs-up"></i></p>
 							</div>
 						</div>
 						<div class="span4">
 							<div class="linediv-r">
-								<h3>10</h3> <p>days left</p>
+								<h3>50</h3> <p>days left</p>
 							</div>
 						</div>
 					</div>
@@ -177,21 +203,21 @@
 					<!-- bootstrap progress bar -->
 					<!-- http://twitter.github.io/bootstrap/components.html#progress-->
 					<div class="thermometer progress active">
-						<div class="bar bar-success" style="width: 60%;"></div>
-						<div class="bar bar-warning" style="width: 40%;"></div>
+						<div class="bar bar-success" style="width: 2%;"></div>
+						<!--<div class="bar bar-warning" style="width: 98%;"></div>-->
 					</div>
 				</div>
 				<div class="span6 offset3 order">
 					<!-- standard bootstrap button -->
 					<!-- http://twitter.github.io/bootstrap/base-css.html#buttons-->
-					<button class="btn btn-success btn-large">Sign up</button>
+					<button class="btn btn-success btn-large">Sign up</button><br>
 				</div>
 				<div class="span8 offset2 social">
 					<!-- social buttons are not included in default bootstrap -->
 					<!-- http://noizwaves.github.io/bootstrap-social-buttons-->
-						<button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-						<button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button><br><br>
-						<button class="btn btn-google-plus"><i class="icon-google-plus"></i> | Google Plus</button>
+						<button class="btn btn-twitter btn-medium"><i class="icon-twitter"></i> | Twitter</button>
+						<button class="btn btn-facebook btn-medium"><i class="icon-facebook"></i> | Facebook</button>
+						<button class="btn btn-google-plus btn-medium"><i class="icon-google-plus"></i> | Google</button>
 				</div>
 			</div>
 		</div>
@@ -204,16 +230,18 @@
 		<div class="row-fluid section1">
 			<div class="span5 offset1 asset">
 				<!-- <img class="img-polaroid" src="http://placehold.it/480x300"> -->
-				<img class="img-polaroid" src="images/14_egypt_flag_colors.jpg">
+				<img class="img-polaroid" src="images/01_school_small.jpg">
 			</div>
 			<div class="span5 copy">
 				<p>
 				Skolapp is a service for searching and comparing international schools 
-				that require an interview for admission. It allows you to search 
-				schools by curriculum, area, tuition fees and other aspects. Our main 
-				goal is to provide you with the most accurate information for each school 
+				that require an interview for admission. It allows you to look for 
+				schools by curriculum, area, tuition fees and other aspects. Our initial 
+				goal is to provide you with the most accurate information about each school 
 				and give you the opportunity to book an interview for your kid from 
-				the comfort of your home.
+				the comfort of your home. Unlike many other crowd funding sites, we are not 
+				looking for your money, but for your word. If you see this service 
+				as potenial for helping parents, feel free to share it. 	
 				</p>
 			</div>
 		</div>
@@ -221,22 +249,38 @@
 		<div class="row-fluid section2">
 			<div class="span5 offset1 copy copy-right">
 				<p>
-				We are located in Egypt and currently in the launch phase. We are looking 
-				forward to begin operations on April 2014. Sign up and receive our quarterly 
-				updates. We will not share your email with any third party without your 
-				consent. Our service is a great way to save your time finding the right school 
+				We are located in Egypt and currently in the launch phase. Our website is being actively 
+				developed and we are planning to go live on April 2014. If you are interested, sign up and 
+				receive our quarterly news letter. We will not spam you and we will never share 
+				your email without your consent. Our service is a great tool to save your time finding the right school 
 				for your kids.
 				</p>
 			</div>
 			<div class="span5 asset">
 				<!-- <img class="img-polaroid" src="http://placehold.it/480x300"> -->
-				<img class="img-polaroid" src="images/01_school_small.jpg">
+				<img class="img-polaroid" src="images/14_egypt_flag_colors.jpg">
 			</div>
 		</div>
 
 		<!-- for thw FAQ we introduce a little bit of JS using accordion. -->
 		<!-- This brings in jquery.js and bootstrap as dependencies. -->
 		<!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
+
+	<!-- Newsletter borrowed from pitery.herokuapp.com -->
+	<div class="container">
+		<div class="row-fluid newsletter">
+			<div class="span10 offset1">
+				<h3>If you find this idea interesting, sign up for news about Skolapp.</h3>
+				<form class="well" action="/myaction" method="post">
+					<p>
+					<label for="fieldName">Name: <input id="fieldName" name="user[name]" type="text"></label>
+					<label for="fieldEmail">Email: <input id="fieldEmail" name="user[email]" type="email" required=""></label>
+					<button class="btn btn-success" type="submit">Subscribe</button>
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
 
 		<div class="row-fluid faq">
 			<div class="span10 offset1">
@@ -246,12 +290,16 @@
 						<div class="accordion-heading">
 							<a class="accordion-toggle" data-toggle="collapse" 
 							data-parent="#accordion2" href="#collapseOne">
-								What does FAQ stand for?
+								How does it work?
 							</a>
 						</div>
 						<div id="collapseOne" class="accordion-body collapse">
 							<div class="accordion-inner">
-								Frequently Asked Questions.
+								The number of international schhols in Egypt is fairly limited, and we have a couple of talented surveyors who
+								are going to survey and inspect schools in person. We also will make use of our acquaintences to provide
+								you with initial information about each school. When the service attracts more users, we are going to introduce
+								school reviews where parents and students alike can review schools and rate them. Our profit comes from schools,
+								not from parents.
 							</div>
 						</div>
 					</div>
@@ -260,12 +308,13 @@
 						<div class="accordion-heading">
 							<a class="accordion-toggle" data-toggle="collapse" 
 							data-parent="#accordion2" href="#collapseTwo">
-								What is a Frequently Asked Question?
+								What makes you different from other services?
 							</a>
 						</div>
 						<div id="collapseTwo" class="accordion-body collapse">
 							<div class="accordion-inner">
-								A question which is commonly asked by users.
+								We are not aware of any site offering the same service for parents, particularly booking an interview. If you know
+								any, please let us know in the contact page.
 							</div>
 						</div>
 					</div>
@@ -278,9 +327,7 @@
 		<!-- http://creativecommons.org/licenses/ -->
 		<div class="row-fluid footer">
 			<div class="span12">
-				<p> This work is licensed under the 
-				<a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a>, without all the cruft the would otherwise
-				 be put at the bottom of the page.</p>
+				<p>  All rights reserved to Skolapp, 2013. </p>
 			</div>
 		</div>
 	</div>
