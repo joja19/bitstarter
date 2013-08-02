@@ -266,7 +266,7 @@
 		<!-- This brings in jquery.js and bootstrap as dependencies. -->
 		<!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
 
-	<!-- Newsletter borrowed from pitery.herokuapp.com -->
+	<!-- Newsletter borrowed from pitery.herokuapp.com
 	<div class="container">
 		<div class="row-fluid newsletter">
 			<div class="span10 offset1">
@@ -280,11 +280,30 @@
 				</form>
 			</div>
 		</div>
+	</div> -->
+
+	<!--Google Forms -->
+	<div class="container">
+		<div class="row-fluid newsletter">
+			<div class="span10 offset1">
+				<h3>If you find this idea interesting, sign up for news about Skolapp.</h3>
+				<form class="well" action="https://docs.google.com/spreadsheet/formResponse?formkey=dEgzS3BuNlE1WVJFdmRpWWd0Y0dKVlE6MA&amp;theme=0AX42CRMsmRFbUy1kZTZkZWRkZC1mMWNiLTQ4ODctYjdlNy0zNWI4MjEzY2JmNTc&amp;ifq" method="POST" id="ss-form">
+					<p>
+					<label for="entry_1">Name: <input type="text" required="" name="entry.1.single" value="" id="entry_1"></label>
+					<label for="entry_2">Email: <input type="email" required="" name="entry.2.single" value="" id="entry_2"></label>
+					<!-- <input type="hidden" name="pageNumber" value="0">
+					<input type="hidden" name="backupCache" value=""> -->
+					<button class="btn btn-success" type="submit" name="submit">Subscribe</button>
+					</p>
+				</form>
+			</div>
+		</div>
 	</div>
 
+		<!-- FAQ -->
 		<div class="row-fluid faq">
 			<div class="span10 offset1">
-				<h3>FAQ</h3>
+				<h3>Frequently Asked Questions</h3>
 				<div class="accordion" id="accordion2">
 					<div class="accordion-group">
 						<div class="accordion-heading">
