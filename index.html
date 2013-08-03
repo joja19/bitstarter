@@ -117,6 +117,10 @@
 	.footer a {
 		color: #ccccff;
 	}
+	.addthis_toolbox {
+		width: 180px;
+		margin: 0 auto;
+	}
 	</style>
   <link rel="stylesheet" href="assets/css/gh-fork-ribbon.css">
 </head>
@@ -220,10 +224,20 @@
 				<div class="row-fluid">
 				<div class="span8 offset2 social">
 					<!-- social buttons are not included in default bootstrap -->
-					<!-- http://noizwaves.github.io/bootstrap-social-buttons-->
-						<button class="btn btn-twitter btn-medium"><i class="icon-twitter"></i> | Twitter</button>
+					<!-- Previously we used: http://noizwaves.github.io/bootstrap-social-buttons-->
+					<!-- AddThis Button BEGIN -->
+					<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+						<a class="addthis_button_preferred_1"></a>
+						<a class="addthis_button_preferred_2"></a>
+						<a class="addthis_button_compact"></a>
+						<a class="addthis_counter addthis_bubble_style"></a>
+					</div>
+					<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+					<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51fc97660ac58968"></script>
+					<!-- AddThis Button END -->
+						<!--<button class="btn btn-twitter btn-medium"><i class="icon-twitter"></i> | Twitter</button>
 						<button class="btn btn-facebook btn-medium"><i class="icon-facebook"></i> | Facebook</button>
-						<button class="btn btn-google-plus btn-medium"><i class="icon-google-plus"></i> | Google</button>
+						<button class="btn btn-google-plus btn-medium"><i class="icon-google-plus"></i> | Google</button>-->
 				</div>
 				</div>
 			</div>
